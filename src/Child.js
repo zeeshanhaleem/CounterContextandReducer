@@ -9,7 +9,7 @@ const Child = ()=> {
             <h4>Counter Value is {Countervalue[0]}</h4>
     
             <button onClick={()=> {Countervalue[1](++Countervalue[0])}}>
-            Increament Context</button>
+            Increament Context </button>
         </div>
     )
 }
