@@ -27,13 +27,13 @@ jobs:
         uses: actions/setup-node@v2-beta
         with:
             version: 12
-            
+
       - name: GitHub Action for Yarn
         uses: Borales/actions-yarn@v2.1.0
         with:
           cmd: install
 
-      - name: Installing Build
+      - name: Creating Build
         run:  yarn build
 
       - name: installing Surge
